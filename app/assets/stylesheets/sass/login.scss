@@ -1,0 +1,116 @@
+.login{
+    width: 100%;
+    
+    position: relative;
+
+    .close{
+        position: absolute;
+        width: 20px;
+        top: 80px;
+        left: 60px;
+    }
+    
+    .login-container{
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        .login-form{
+            padding: 0 120px;
+            flex: 0 0 50%;
+            max-width: 50%;
+        .login-heading{
+            
+            margin-bottom: 60px;
+            h1{
+                color: #1c1c1c;
+                font-size: 40px;
+                font-family: sans-serif;
+                font-weight: 800;
+                margin-bottom: 10px;
+            }
+            p{
+                color: #2c2c2c;
+                font-size: 18px;
+                font-family: sans-serif;
+            }
+        }
+        .login-input{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 100%;
+            position: relative;
+            
+            span{
+                .user{
+                    width: 20px;
+                    position: absolute;
+                    bottom: 115px;
+                    left: 0px;
+                }
+                .password{
+                    width: 20px;
+                    position: absolute;
+                    bottom: 30px;
+                    left: 0px;
+                }
+            }
+            
+            input{
+                
+                padding-bottom: 5px;
+                outline: none;
+                font-size: 22px;
+                color: #452790;
+                margin: 25px 0;
+                border: none;
+                border-bottom: 2px solid #452790;
+            }
+            
+        }
+        .login-submit{
+            .login-btn{
+                margin-top: 100px;
+                padding: 15px 0;
+                color: #fff;
+                font-weight: 600;
+                border: none;
+                border-radius: 5px;
+                font-size: 24px;
+                width: 100%;
+                background-color: #F1B52F;
+            }
+            p{
+                text-align: left !important;
+                color: #F1B52F;
+                margin-top: 8px;
+            }
+        }
+
+        .login-foot{
+            font-size: 22px;
+            margin-top: 120px;
+            font-family: sans-serif;
+            span{
+                a{
+                    color: #F1B52F;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+        
+
+        .login-img{
+            
+            flex: 0 0 50%;
+            max-width: 50%;
+            img{
+             width: 80%;
+            }
+        }
+    }
+}
+

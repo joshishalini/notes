@@ -1,0 +1,41 @@
+// .nav{
+//     background: white;
+//     width: 100%;
+//     box-shadow: 0 5 10 #1c1c1c;
+//     display: flex;
+//     justify-content: space-around;
+//     color: #1c1c1c;
+// }
+
+.btn-warning{
+    color: white !important;
+    font-weight: 600!important;
+}
+
+.navbar-brand{
+    color: #1c1c1c;
+    font-size: 2rem !important;
+}
+
+.sign-in{
+    border: 1px solid #f1b536;
+    background-color: transparent;
+    color: #f1b536;
+    padding: 8px 20px;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.sign-up{
+    border: none;
+    font-weight: bold;
+    background-color: #f1b536;
+    color: #fafafa;
+    padding: 8px 20px;
+    margin: 0 5px;
+}
+
+.nav-link{
+    color: #1c1c1c;
+
+}

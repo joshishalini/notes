@@ -1,0 +1,48 @@
+.home-section{ 
+    position: relative;
+    width: 100%;
+    
+    .landing-row{
+        
+        margin: 0 50px;
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+        
+        .head-container{
+            
+            
+            .heading{
+                p{  
+                    
+                    font-size: 5rem !important;
+                    font-weight: 900;
+                    width: 80%;
+                }
+                .offer{
+                    color: #888;
+                    font-size: 1rem!important;
+                    font-weight: 500;
+                    margin: 10px 0;
+        
+                }
+                .landing-btn{
+                    background-color: #F1B536;
+                    color: #fafafa;
+                    font-size: 1.5rem;
+                    padding: 5px 40px;
+                    font-weight: 500;
+                    border: none;
+                    border-radius: 5px;
+                }
+                
+            }
+        }
+        .landing-img{
+            img{
+                width: 100%!important;
+            }
+        }
+        
+    }
+}

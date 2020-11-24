@@ -1,0 +1,129 @@
+.login {
+  width: 100%;
+  position: relative;
+}
+
+.login .close {
+  position: absolute;
+  width: 20px;
+  top: 80px;
+  left: 60px;
+}
+
+.login .login-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.login .login-container .login-form {
+  padding: 0 120px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.login .login-container .login-form .login-heading {
+  margin-bottom: 60px;
+}
+
+.login .login-container .login-form .login-heading h1 {
+  color: #1c1c1c;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.login .login-container .login-form .login-heading p {
+  color: #2c2c2c;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.login .login-container .login-form .login-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  position: relative;
+}
+
+.login .login-container .login-form .login-input span .user {
+  width: 20px;
+  position: absolute;
+  bottom: 115px;
+  left: 0px;
+}
+
+.login .login-container .login-form .login-input span .password {
+  width: 20px;
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+}
+
+.login .login-container .login-form .login-input input {
+  padding-bottom: 5px;
+  outline: none;
+  font-size: 22px;
+  color: #452790;
+  margin: 25px 0;
+  border: none;
+  border-bottom: 2px solid #452790;
+}
+
+.login .login-container .login-form .login-submit .login-btn {
+  margin-top: 100px;
+  padding: 15px 0;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  width: 100%;
+  background-color: #F1B52F;
+}
+
+.login .login-container .login-form .login-submit p {
+  text-align: left !important;
+  color: #F1B52F;
+  margin-top: 8px;
+}
+
+.login .login-container .login-form .login-foot {
+  font-size: 22px;
+  margin-top: 120px;
+  font-family: sans-serif;
+}
+
+.login .login-container .login-form .login-foot span a {
+  color: #F1B52F;
+  text-decoration: none;
+}
+
+.login .login-container .login-img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.login .login-container .login-img img {
+  width: 80%;
+}
+/*# sourceMappingURL=login.css.map */

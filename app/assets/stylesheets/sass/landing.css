@@ -1,0 +1,46 @@
+.home-section {
+  position: relative;
+  width: 100%;
+}
+
+
+.home-section .landing-row {
+  margin: 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-section .landing-row .head-container .heading p {
+  font-size: 5rem !important;
+  font-weight: 900;
+  width: 80%;
+}
+
+.home-section .landing-row .head-container .heading .offer {
+  color: #888;
+  font-size: 1rem !important;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.home-section .landing-row .head-container .heading .landing-btn {
+  background-color: #F1B536;
+  color: #fafafa;
+  font-size: 1.5rem;
+  padding: 5px 40px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+}
+
+.home-section .landing-row .landing-img img {
+  width: 100% !important;
+}
+/*# sourceMappingURL=landing.css.map */

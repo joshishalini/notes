@@ -4,23 +4,14 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import PropTypes from 'prop-types'
-
-const Hello = props => (
-  <div>Hello {props.name}!</div>
-)
-
-Hello.defaultProps = {
-  name: 'David'
-}
-
-Hello.propTypes = {
-  name: PropTypes.string
-}
+import { BrowserRouter } from 'react-router-dom';
+import App from './main';
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <Hello name="React" />,
+  	<BrowserRouter>
+   			<App />
+    </BrowserRouter>,
     document.body.appendChild(document.createElement('div')),
   )
 })
