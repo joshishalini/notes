@@ -1,25 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Notes application which you can use to write, store and view your notes.
 
-Things you may want to cover:
+Requirements:
 
-* Ruby version
+* Ruby version: 2.6.3	
 
-* System dependencies
+* System dependencies:
+- MySQL
+- WebPacker
+- node.JS
+- Yarn
 
-* Configuration
+* Database creation and initialisation
+`rake db:create`
+`rake db:migrate`
 
-* Database creation
+* How to run the application
+Clone this repository to your local machine: `git clone https://github.com/joshishalini/notes.git`
+Install Ruby Gems:`bundle install`
+Install React Webpacker: `rails webpacker:install:react`
+Start Rails server: `rails s`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# notes
+* Future Plans
+Ability to create user profiles and save private notes
+Edit and delete functionality
+Ability to share notes
+Export all notes for safe-keeping
