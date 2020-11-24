@@ -14,9 +14,9 @@ Requirements:
 
 * Database creation and initialisation
 
-`rake db:create`
+	`rake db:create`
 
-`rake db:migrate`
+	`rake db:migrate`
 
 * How to run the application
 
